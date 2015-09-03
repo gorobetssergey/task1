@@ -1,0 +1,17 @@
+table{
+    width: 480px;
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+table td, table th{
+    border: 2px solid red;
+}
+table th:first-child{
+    width: 80%;
+}
+table tr{
+    color: maroon;
+}
+table tr:first-child{
+    color: blue;
+}
